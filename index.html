@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="spotify_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="svg/spotify_svg.svg" alt="spotify">
+        </div>
+        <div class="center">
+            <div class="home">
+                <img src="svg/home.svg" alt="home">
+            </div>
+            <div class="searchbar">
+                <img src="svg/search.svg" alt="search">
+                <input type="text" placeholder="What do you want to play?">
+                <img src="svg/browse.svg" alt="browser">
+            </div>
+        </div>
+        <div class="right">
+            <div class="signup">
+                <button>Sign up</button>
+            </div>
+            <div class="login">
+                <button>Log in</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <input type="checkbox" name="checkbox" id="check">
+        <label for="check">
+            <img src="svg/side-menu.svg" alt="side-menu" class="menu">
+            <img src="svg/side-cross.svg" alt="side-cross" class="cross">
+        </label>
+        <div class="left" id="lefty">
+            <div class="heading">
+                <div class="lefty">
+                    <img src="svg/library.svg" alt="library">
+                    <h1>Your Library</h1>
+                </div>
+                <div class="righty">
+                    <button>
+                        <img src="svg/plus.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="small-slide">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="links">
+                <p><a href="#">Legal</a></p>
+                <p><a href="#">Safety & Privacy Center</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Cookies</a></p>
+                <p><a href="#">About Ads</a></p>
+                <p><a href="#">Accessibility</a></p>
+            </div>
+            <div class="left-bottom">
+                <p><a href="#">Cookies</a></p>
+                <button>
+                    <img src="svg/earth.svg" alt="language">
+                    <p>English</p>
+                </button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="playbar">
+                <div class="upper-side">
+                    <div class="song-info">
+                        
+                    </div>
+                    <div class="svg-img">
+                        <img id="previous" src="svg/previous-button.svg" alt="previous-button">
+                        <img id="play" src="svg/play.svg" alt="play-button">
+                        <img id="next" src="svg/next-button.svg" alt="next-button">
+                    </div>
+                    <div class="song-time">
+                        
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="circlo"></div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="heading" id="first-heading">
+                    <h2><a href="">Popular artist</a></h2>
+                    <p><a href="">Show all</a></p>
+                </div>
+
+                <div class="artist">
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img1.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Pritam</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img2.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Arijit Singh</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img3.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Sachin-Jigar</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img4.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">A.R. Rahman</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img5.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Harsh Rajora</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/img6.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Atif Aslam</a>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading">
+                    <h2><a href="">Popular albums and singles</a></h2>
+                    <p><a href="">Show all</a></p>
+                </div>
+
+                <div class="albums">
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb1.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Aashiqui 2</a>
+                            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb2.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Glory</a>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb3.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Sanam Teri Kasam (Original Motion...</a>
+                            <p>Himesh Reshammiya</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb4.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Yeh Jawaani Hai Deewani</a>
+                            <p>Pritam</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb5.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Who (Remixes)</a>
+                            <p>Jimin</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/alb6.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="">Mismatched: Season 3</a>
+                            <p>Mismatched - Cast</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading">
+                    <h2><a href="">Popular radio</a></h2>
+                    <p><a href="">Show all</a></p>
+                </div>
+
+                <div class="radios">
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad1.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With Sachin-Jigar, Vishal-Shekhar, Amit...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad2.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With A.R. Rahman, Vishal-Shekhar, Atif...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad3.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With Armaan Malik, Mohit Chauhan, Anki...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad4.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With Karan Aujla, Shubh, Sidhu Moose...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad5.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With Asha Bhosle, Abhijeet, Lata...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/rad6.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>With Harris Jayaraj, Anirudh Ravichander...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading">
+                    <h2><a href="">India's Best</a></h2>
+                    <p><a href="">Show all</a></p>
+                </div>
+
+                <div class="radios">
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes1.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Hottest tracks from your favourite I-Pop...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes2.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Bollywood Central, jab baje toh seedha...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes3.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Ultimate 101 Punjabi Hits with Shubh</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes4.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Finest collection of Tamil Music from the...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes5.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>The finest set of Telugu music from th...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/bes6.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Finest Collection of Tamil Music from the...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heading">
+                    <h2><a href="">Featured Charts</a></h2>
+                </div>
+
+                <div class="radios">
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha1.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Hottest tracks from your favourite I-Pop...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha2.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Bollywood Central, jab baje toh seedha...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha3.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Ultimate 101 Punjabi Hits with Shubh</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha4.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Finest collection of Tamil Music from the...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha5.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>The finest set of Telugu music from th...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imag">
+                            <img src="img/cha6.jpg" alt="image">
+                            <div class="circle">
+                                <img src="svg/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Finest Collection of Tamil Music from the...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="foot">
+                    <div class="four">
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Company</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Jobs</a></li>
+                                <li><a href="">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Communities</a></li>
+                                <li><a href="">For Artists</a></li>
+                                <li><a href="">Developers</a></li>
+                                <li><a href="">Advertising</a></li>
+                                <li><a href="">Investors</a></li>
+                                <li><a href="">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Useful links</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Spotify Plans</a></li>
+                                <li><a href="">Premium Individual</a></li>
+                                <li><a href="">Premium Duo</a></li>
+                                <li><a href="">Premium Family</a></li>
+                                <li><a href="">Premium Student</a></li>
+                                <li><a href="">Spotify Free</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="facebook">
+                        <div class="circle">
+                            <img src="svg/insta.svg" alt="Instagram">
+                        </div>
+                        <div class="circle">
+                            <img src="svg/twitter.svg" alt="Twitter">
+                        </div>
+                        <div class="circle">
+                            <img src="svg/fb.svg" alt="Facebook">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="end">
+                    <p>Copyright &copy; 2025 Developer - Rajora</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="left">
+                <h3>Preview of Spotify</h3>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div class="right">
+                <div class="signup">
+                    <button>Sign up free</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

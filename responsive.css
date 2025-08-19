@@ -1,0 +1,327 @@
+@media only screen and (max-width: 1500px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .left {
+        width: 230px;
+    }
+
+    main .left .small-slide .first {
+        margin: 0px 10px 12px 10px;
+    }
+
+    main .left .small-slide .second {
+        margin: 12px 10px 12px 10px;
+    }
+
+    main .right {
+        width: 1092px;
+        min-height: 621.2px;
+        height: calc(100vh - 140px);
+    }
+}
+
+@media only screen and (max-width: 1365px) {
+    header {
+        padding: 0px 28px;
+    }
+
+    header .left {
+        margin-left: 10px;
+    }
+
+    header .center {
+        margin-left: 150px;
+        width: 524px;
+    }
+
+    header .right {
+        position: relative;
+        right: 40px;
+    }
+
+    header .right .side-menu {
+        position: static;
+        margin-left: 40px;
+        margin-top: 6px;
+    }
+
+    label {
+        display: block;
+    }
+
+    main .left {
+        position: fixed;
+        right: -250px;
+        z-index: 4;
+    }
+
+    main .right {
+        width: 1054px;
+    }
+
+    main .right .slider .artist .card img {
+        height: 145px;
+        width: 145px;
+    }
+
+    main .right .slider .heading {
+        margin-top: 28px;
+    }
+
+    main .right .slider .albums .card img {
+        height: 145px;
+        width: 145px;
+    }
+
+    main .right .slider .radios .card img {
+        height: 145px;
+        width: 145px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    header {
+        padding: 0px 8px;
+    }
+
+    header .left{
+        margin-left: 4px;
+    }
+
+    header .left img{
+        height: 38px;
+    }
+
+    header .center{
+        margin-left: 0px;
+    }
+
+    header .right{
+        transform: scale(0.8);
+    }
+
+    main .right {
+        width: 96vw;
+        margin: 0;
+    }
+
+    main .right .slider{
+        width: 100%;
+    }
+
+    main .right .slider .artist{
+        padding: 0px 18px;
+        width: 100%;
+        overflow: scroll;
+        box-sizing: border-box;
+    }
+
+    main .right .slider .albums{
+        padding: 0px 18px;
+        width: 100%;
+        overflow: scroll;
+        box-sizing: border-box;
+    }
+
+    main .right .slider .radios{
+        padding: 0px 18px;
+        width: 100%;
+        overflow: scroll;
+        box-sizing: border-box;
+    }
+
+    main .right .slider .foot .four{
+        margin: 48px 0px;
+    }
+
+    main .right .slider .foot .four .list{
+        min-width: 136px;
+        margin-left: 24px;
+    }
+
+    main .right .slider .foot .facebook{
+        flex-direction: column;
+    }
+
+    main .right .slider .foot .facebook .circle{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 848px) and (orientation: portrait){
+    header .left img{
+        height: 34px;
+    }
+
+    header .center{
+        width: 200px;
+        margin-left: -40px;
+    }
+
+    header .center .home{
+        display: none;
+    }
+
+    header .center .searchbar input{
+        height: 38px;
+        padding-left: 32px;
+        padding-right: 12px;
+        width: 142px;
+    }
+
+    header .center .searchbar :nth-child(3){
+        display: none;
+    }
+
+    header .center .searchbar input::placeholder{
+        font-size: 12px;
+    }
+
+    header .center .searchbar :first-child{
+        height: 20px;
+        top: 10px;
+        left: 16px;
+    }
+
+    header .right{
+        transform: scale(1);
+        height: 52px;
+    }
+
+    header .right button{
+        font-size: 12px;
+        height: 34px;
+        width: 64px;
+    }
+
+    header .right .signup{
+        display: none;
+    }
+
+    label .menu{
+        width: 30px;
+        height: 34px;
+        top: 8px;
+    }
+
+    label .cross{
+        width: 30px;
+        height: 34px;
+        top: 8px;
+    }
+
+    main .right .slider .heading{
+        padding: 8px 12px 8px 12px;
+        margin-top: 4px;
+    }
+
+    main .right .slider .heading h2 a{
+        font-size: 20px;
+    }
+
+    main .right .slider .heading p{
+        font-size: 18px;
+    }
+
+    main .right .slider .artist .card{
+        height: 188px;
+    }
+
+    main .right .slider .artist .card img{
+        height: 120px;
+        width: 120px;
+    }
+
+    main .right .slider .artist .card{
+        padding: 8px;
+    }
+
+    main .right .slider .artist{
+        padding: 0px 8px;
+    }
+
+    main .right .slider .albums .card{
+        height: 188px;
+    }
+
+    main .right .slider .albums .card img{
+        height: 120px;
+        width: 120px;
+    }
+
+    main .right .slider .albums .card{
+        padding: 8px;
+    }
+
+    main .right .slider .albums{
+        padding: 0px 8px;
+        height: 236px;
+    }
+
+    main .right .slider .radios .card{
+        height: 188px;
+    }
+
+    main .right .slider .radios .card img{
+        height: 120px;
+        width: 120px;
+    }
+
+    main .right .slider .radios .card{
+        padding: 8px;
+    }
+
+    main .right .slider .radios{
+        padding: 0px 8px;
+    }
+
+    main .right .slider .foot{
+        flex-direction: column;
+    }
+
+    main .right .slider .foot .four{
+        margin: 28px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    main .right .slider .foot .four .list {
+        min-width: 110px;
+    }
+
+    main .right .slider .foot .four .list ul li{
+        margin-top: 4px;
+    }
+
+    main .right .slider .foot .four .list ul li a{
+        font-size: 12px;
+    }
+
+    main .right .slider .foot .facebook{
+        flex-direction: row;
+        margin: 10px auto;
+    }
+
+    main .right .slider .foot .facebook .circle{
+        margin: 12px;
+    }
+
+    footer .foot .left h3{
+        font-size: 14px;
+    }
+
+    footer .foot .left p{
+        font-size: 12px;
+    }
+
+    footer .foot .right .signup button{
+        font-size: 12px;
+        padding: 12px 8px;
+        width: 90px;
+    }
+    
+}

@@ -1,0 +1,60 @@
+57.
+<div class="first">
+                    <h2>Create your first playlist</h2>
+                    <p>It's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="second">
+                    <h2>Let's find some podcasts to follow</h2>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+
+
+284. css
+
+main .left .small-slide .first {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin: 16px 10px 24px 10px;
+    padding: 18px;
+}
+
+main .left .small-slide .second {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin: 16px 10px 24px 10px;
+    padding: 18px;
+}
+
+main .left .small-slide h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: arial;
+    color: white;
+}
+
+main .left .small-slide p {
+    font-family: arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin: 12px 0px;
+}
+
+main .left .small-slide button {
+    height: 34px;
+    /* width: 130px; */
+    padding: 0px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+main .left .small-slide button:hover {
+    transform: scale(1.04);
+    background-color: white;
+}
